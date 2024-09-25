@@ -4,7 +4,7 @@ package lab01;
 
 import java.util.Scanner;
 
-public class Exercise2{
+public class Exercise2_2_5{
     public static void main(String [] args){
         double a, b;
         Scanner sc = new Scanner(System.in);
@@ -19,7 +19,8 @@ public class Exercise2{
 
         System.out.println("product: "+ (a*b));
         
-        if(b == 0) System.out.println("divisor error");
-        else System.out.print("quotient: "+ (a/b));
+        System.out.print("quotient: ");
+        if(b == 0) System.out.println("(divisor error)");
+        else System.out.print(a/b);
     }
 }
