@@ -22,5 +22,6 @@ public class Exercise2_2_5{
         System.out.print("quotient: ");
         if(b == 0) System.out.println("(divisor error)");
         else System.out.print(a/b);
+        sc.close();
     }
 }
